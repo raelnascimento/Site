@@ -1,0 +1,55 @@
+body{
+    background-image: url(./imagens/pexels-photo-2272752.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.container{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1000px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(63, 70, 82, 0.808);
+    border: 3px solid black;
+    color: rgb(233, 233, 233);
+}
+.opcoes{
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+    max-width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: rgba(165, 165, 170, 0.897);
+    border: 3px solid rgb(0, 0, 0);
+}
+#sitesEprojetos{
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.opcoes li{
+    font-size: 20px;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.opcoes a{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+.opcoes a:link{
+    color: black;
+
+}
+.opcoes a:visited{
+    font-size: 20px;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
